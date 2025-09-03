@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil Website</title>
+  <title>Kontak</title>
   <style>
     body {
       margin: 0;
@@ -18,8 +18,6 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 40px;
-      position: sticky;
-      top: 0;
     }
 
     .logo {
@@ -65,21 +63,38 @@
 
     h1 {
       color: purple;
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin-bottom: 20px;
     }
 
-    p {
-      text-align: justify;
+    .contact-info {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+    }
+
+    .contact-info a {
+      color: purple;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <!-- Navbar -->
   <nav>
     <div class="logo">
       <img src="logo.png" alt="Logo">
-      <span>Jajang Ahmad Fahmi</span>
+      <span>Nama Website</span>
     </div>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -89,17 +104,11 @@
   </nav>
 
   <main>
-    <h1>Hello World</h1>
-    <p>
-      Cascading Style Sheet atau CSS adalah bahasa pemrograam berbasis aturan
-      dikembangkan oleh World Wide Web Consortium (W3C) pada tahun 1996. CSS
-      dikembangkan karena HTML yang berfungsi untuk memformat halaman web tidak 
-      bisa menambahkan gaya atau tata letak tingkat lanjut. Misalnya, pada HTML 
-      versi 3.2 sudah diperkenalkan tag font agar gaya text diubah. Namun, web desiner
-      amatir menyalahgunakan dan tidak ada opsi fallback seperti yang sekarang 
-      tersedia di CSS. jadi, pilihan terbaiknya adalah tetap memisahkan performa (HTML) dan 
-      penataan (CSS).
-    </p>
+    <h1>Kontak Saya</h1>
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:jajang.ahmadfahmi@gmail.com">jajang.ahmadfahmi@gmail.com</a></p>
+      <p><strong>Telepon:</strong> 0858-7134-4688</p>
+    </div>
   </main>
 </body>
 </html>
