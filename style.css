@@ -9,3 +9,6 @@ p{
    line-height: 20px;
    color: rgb(14, 14, 13);
   }
+a {
+    text-decoration: none;
+}
